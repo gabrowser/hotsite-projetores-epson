@@ -72,3 +72,32 @@
   border-width: 10px 20px 10px 0;
   border-color: transparent var(--color-white) transparent transparent;
 }
+#hotsite .intro {
+  height: 100vh;
+}
+
+#hotsite .intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#hotsite .intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+#hotsite section {
+  height: 100vh;
+  color: black;
+}
+
+#hotsite section h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
