@@ -9,6 +9,7 @@
   --transition-color: .2s all ease-in-out;
 
   background-color: var(--color-black);
+  color: var(--color-black);
 }
 #hotsite .opacity-20 {
   opacity: 0.2;
@@ -38,4 +39,36 @@
 #hotsite .h-nav__icon--mob-menu {
   width:100px;
 }
-
+#hotsite .h-nav__item {
+  position: relative;
+}
+#hotsite .h-nav__item a {
+  color: var(--color-black);
+}
+#hotsite .h-nav__item:hover .h-nav__popup {
+  opacity: 1;
+  visibility: visible;
+}
+#hotsite .h-nav__popup {
+  width: fit-content;
+  padding: .25rem 1rem;
+  border-radius: .25rem;
+  background-color: var(--color-white);
+  position: absolute;
+  left: 82px;
+  top: 18px;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-color);
+}
+#hotsite .h-nav__popup::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -10px;
+  top: 20%;
+  border-style: solid;
+  border-width: 10px 20px 10px 0;
+  border-color: transparent var(--color-white) transparent transparent;
+}
