@@ -90,18 +90,8 @@
   transform: translate(-50%, -50%);
   font-size: 80px;
   color: white;
-}
+} 
 
-#hotsite section {
-  height: 100vh;
-  color: black;
-}
-
-#hotsite section h1 {
-  padding-top: 300px;
-  text-align: center;
-  font-size: 80px;
-}
 
 #hotsite .h-infografico::before {
   content: '';
