@@ -1,0 +1,41 @@
+#hotsite {
+  --color-black: #14121A;
+  --color-white: #D5E1F6;
+  --color-dark-purple: #2B2536;
+  --color-mauve-purple: #CCB0FF;
+  --color-mauve-purple-transparentize: rgba(204, 176, 255, .2);
+  --color-pink: #CA5FD0;
+
+  --transition-color: .2s all ease-in-out;
+
+  background-color: var(--color-black);
+}
+#hotsite .opacity-20 {
+  opacity: 0.2;
+}
+#hotsite .h-header {
+  background-color: var(--color-dark-purple)
+}
+#hotsite .h-nav {
+  position: absolute;
+  left: -96px;
+  top: 240px;
+}
+#hotsite .h-nav__bg {
+  background-color: var(--color-mauve-purple-transparentize);
+}
+#hotsite .h-nav__icon {
+  fill: var(--color-white);
+  width: 38px;
+  transition: var(--transition-color);
+}
+#hotsite .h-nav__icon:hover {
+  fill: var(--color-pink);
+}
+#hotsite .h-nav__icon--epson {
+  width: 20px;
+}
+#hotsite .h-nav__icon--mob-menu {
+  width:100px;
+}
+
