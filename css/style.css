@@ -18,9 +18,9 @@
   background-color: var(--color-dark-purple)
 }
 #hotsite .h-nav {
-  position: absolute;
-  left: -96px;
-  top: 240px;
+  position: fixed;
+  transform: translate(-120px, 240px);
+  z-index: 9999;
 }
 #hotsite .h-nav__bg {
   background-color: var(--color-mauve-purple-transparentize);
@@ -72,6 +72,7 @@
   border-width: 10px 20px 10px 0;
   border-color: transparent var(--color-white) transparent transparent;
 }
+
 #hotsite .intro {
   height: 100vh;
 }
@@ -100,4 +101,15 @@
   padding-top: 300px;
   text-align: center;
   font-size: 80px;
+}
+
+#hotsite .h-infografico::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background: -moz-linear-gradient(top,  rgba(43,37,54,1) 0%, rgba(43,37,54,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(43,37,54,1) 0%,rgba(43,37,54,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(43,37,54,1) 0%,rgba(43,37,54,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2536', endColorstr='#002b2536',GradientType=0 ); /* IE6-9 */
 }
