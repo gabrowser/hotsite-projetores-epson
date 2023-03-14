@@ -143,7 +143,10 @@
                         <div class="container-xxl">
                             <div class="row justify-content-center">
                                 <div class="col-auto">
-                                    <img src="assets/img/infografico-sobre-projetores_desk.jpg" alt="">
+                                    <picture>
+                                        <source srcset="assets/img/infografico-sobre-projetores_mb.jpg" media="(max-width: 768px)">
+                                        <img src="assets/img/infografico-sobre-projetores_desk.jpg" alt="" class="img-fluid h-infografico__img">
+                                    </picture>
                                 </div>
                             </div>
                         </div> 
@@ -164,12 +167,7 @@
             </tr>
             <tr>
                 <td colspan="3" class="h_footer">
-                    <script>
-                        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-                        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-                            return new bootstrap.Popover(popoverTriggerEl)
-                        })
-                    </script>
+
                 </td>
             </tr>
         </table>
@@ -184,11 +182,7 @@
     integrity="sha256-31FC/OT6XpfjAhj9FuXjw5/wPXXawCAjJQ29E23/XPk=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
     integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
-<script src="app.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
 <script src="scripts/scroll-video.js"></script>
 
 </html>
