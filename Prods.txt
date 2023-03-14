@@ -1,3 +1,4 @@
+
 FH-02
  ↳ Categoria: Para casa
 
@@ -16,19 +17,112 @@ FH-02
    
    ↱ De: R$ 5.999,00 por
 - Preço: R$ 4.949,10 à vista
-   ↳ Parcelamento: Ou 10x de R$ 549,90.
+   ↳ Parcelamento: Ou 10x de R$ 549,90
       ↳ %: Economize 17%
 
 =========================
 
+EF-12
+ ↳ Categoria: Para casa
+
+- Sobretítulo: Projetor Laser
+   ↳ Título: EpiqVision EF-12
+      ↳ Descrição: 
+         · Android TV integrada.
+         · Imagens Full HD 150" compatível com conteúdo 4K
+         · Laser durabilidade de até 20.000 horas
+
+* caracteristicas:
+   · 2 portas HDMI
+   · FULL HD 
+   · 1.000 lúmens
+   · Alto-falante Yamaha
+   
+   ↱ De: R$ 7.999,00
+- Preço: R$ 5.399,10 à vista
+   ↳ Parcelamento: Ou 10x de R$ 599,90
+      ↳ %: Economize 32%
+
+=========================
+
+LS-300
+ ↳ Categoria: Para casa
+
+- Sobretítulo: Projetor Laser
+   ↳ Título: EpiqVision LS-300
+      ↳ Descrição: 
+         · Android TV integrada.
+         · Projeções a apenas 38 cm da parede
+         · Imagens Full HD de até 150" compatível com conteúdo 4K
+         · Laser durabilidade de até 20.000 horas
+
+* caracteristicas:
+   · HDMI
+   · Full HD de 150"
+   · 3.600 lúmens
+   · Controle por voz
+   
+   ↱ De: ===
+- Preço: R$ 16.199,10 à vista
+   ↳ Parcelamento: Ou 10x de R$ 16.199,10
+      ↳ %: Economize 10%
+
+=========================
+
+CO-W01
+ ↳ Categoria: Para Escolas
+
+- Sobretítulo: Projetor Multimídia
+   ↳ Título:  Powerlite CO-W01
+      ↳ Descrição: 
+         · Elegante e compacto
+         · Imagens de até 300"
+         · HDMI e Alto-falantes integrados
+
+* caracteristicas:
+   · HDMI
+   · Resolução WXGA 
+   · 3.000 lúmens
+   · Alto-falantes integrados
+   
+   ↱ De: R$ 5.099,00
+- Preço: R$ 3.959,10 à vista
+   ↳ Parcelamento: Ou 10x de R$ 439,90
+      ↳ %: Economize 22%
+
+=========================   
+
+E20
+ ↳ Categoria: Para Escolas
+
+- Sobretítulo: Projetor Multimídia
+   ↳ Título: PowerLite E20
+      ↳ Descrição: 
+         · Lâmpada econômica com até 12.000 horas no modo Eco
+         · Imagens de até 300"
+         · Baixo consumo de energia
+
+* caracteristicas:
+   · HDMI
+   · Imagens com até 300"
+   · 3.400 lúmens
+   · Eco-amigável
+   
+   ↱ De: ===
+- Preço: R$ 4.499,10 à vista
+   ↳ Parcelamento: Ou 10x de R$ 499,90
+      ↳ %: Economize 10%
+
+=========================
+
 Powerlite FH52+
- ↳ Categoria: Para Empresas
+ ↳ Categoria: Para Escolas
 
 - Sobretítulo: Projetor Multimídia
    ↳ Título: Powerlite FH52+
       ↳ Descrição: 
-         · Rápida inicialização
-         · Imagens Full HD 1080p com até 300"
+         · conexão wireless.
+         · Imagens Full HD 1080p de até 300"
          · Lâmpada econômica com até 12.000 horas no modo Eco
 
 * caracteristicas:
@@ -39,31 +133,8 @@ Powerlite FH52+
    
    ↱ De: ===
 - Preço: R$ 7.829,10 à vista
-   ↳ Parcelamento: Ou 10x de R$ 869,90.
+   ↳ Parcelamento: Ou 10x de R$ 869,90
       ↳ %: Economize 10%
    
-=========================   
-
-EF-12
- ↳ Categoria: Para casa
-
-- Sobretítulo: Projetor Laser
-   ↳ Título: EpiqVision EF-12
-      ↳ Descrição: 
-         · Android TV integrada.
-         · Imagens Full HD 150" compatível com conteúdo 4K.
-         · Laser durabilidade de até 20.000 horas.
-
-* caracteristicas:
-   · 2 portas HDMI
-   · FULL HD 
-   · 1.000 lúmens
-   · Alto-falante Yamaha
-   
-   ↱ De: R$ 7.999,00
-- Preço: R$ 5.399,10 à vista
-   ↳ Parcelamento: Ou 10x de R$ 599,90.
-      ↳ %: Economize 32%
-
 =========================
 
