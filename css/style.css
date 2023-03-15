@@ -180,6 +180,29 @@
 #hotsite .h-linhas__splide .splide__arrow--next {
   right: -2rem;
 }
+#hotsite .h-linhas__splide .splide__track {
+  overflow-y: visible;
+  overflow-x: clip;
+}
+#hotsite .h-linhas__splide .bg-title {
+  position: absolute;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px var(--color-white);
+  -moz-text-fill-color: transparent;
+  font-size: 10.625rem;
+  font-weight: 900;
+  z-index: -1;
+  pointer-events: none;
+  opacity: .1;
+}
+#hotsite .h-linhas__splide .bg-title.top {
+  top: -70px;
+  left: 0;
+}
+#hotsite .h-linhas__splide .bg-title.bottom {
+  bottom: -40px;
+  right: 0;
+}
 #hotsite .h-linhas__splide .sliderprod__overtitle,
 #hotsite .h-linhas__splide .sliderprod__title,
 #hotsite .h-linhas__splide .sliderprod__description {
