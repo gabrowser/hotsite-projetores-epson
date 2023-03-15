@@ -217,3 +217,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a14ca6', end
   text-transform: uppercase;
   color: var(--color-black);
 }
+#hotsite .h-galeria__splide .splide-topo .splide__track--draggable{
+}
+#hotsite .h-galeria__splide .angulo{
+  height: 100px;
+  width: 100px;
+  box-shadow: -59px 0px 0px 0px rgb(255, 255, 255), 2px 2px 0px 0px rgb(255, 255, 255);
+  border: 20px solid transparent;
+  position: absolute;
+  background-color: transparent;
+  z-index: 9999;
+}
+#hotsite .h-galeria__splide .splide-topo .splide__arrow .splide__arrow--prev{
+  left: 0 !important;
+}
+
+#hotsite .h-galeria__splide .splide-topo .splide__arrow{
+  top: 0 !important;
+  position: inherit;
+  margin: 0.2rem;
+  background: transparent;
+  opacity: 1;
+}
+#hotsite .h-galeria__splide .splide-topo .splide__arrow svg{
+  fill: #d7e0f5;
+}
+#hotsite .h-galeria__splide .splide-topo .splide__arrows.splide__arrows--ltr {
+  display: flex !important;
+  justify-content: flex-end!important;
+}
