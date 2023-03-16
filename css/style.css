@@ -1,3 +1,6 @@
+body {
+  scroll-behavior: smooth;
+}
 #hotsite {
   --color-black: #14121A;
   --color-white: #D5E1F6;
@@ -6,6 +9,7 @@
   --color-mauve-purple: #CCB0FF;
   --color-mauve-purple-transparentize: rgba(204, 176, 255, .2);
   --color-pink: #CA5FD0;
+  --color-pink-transparentize: rgba(202, 95, 208, .2);
   --color-grey: #282730;
 
   --transition-color: .2s all ease-in-out;
@@ -118,6 +122,16 @@
   margin-top: 300px;
 }
 
+#hotsite .h-linhas,
+#hotsite .h-outros-prods,
+#hotsite .h-contato {
+  padding-top: 150px;
+}
+#hotsite .h-galeria,
+#hotsite .h-logo-epson {
+  padding-top: 60px;
+}
+
 #hotsite .h-linhas .nav__item {
   color: var(--color-pink);
   text-transform: uppercase;
@@ -221,19 +235,21 @@
   font-weight: 700;
 }
 #hotsite .h-linhas__splide .sliderprod__features {
-  overflow-x: auto;
-  overflow-y: hidden;
   position: relative;
 }
-#hotsite .h-linhas__splide .sliderprod__features::-webkit-scrollbar-track {
+#hotsite .h-linhas__splide .sliderprod__features .scrolling {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#hotsite .h-linhas__splide .sliderprod__features .scrolling::-webkit-scrollbar-track {
   position: absolute;
   background: transparent;
 }
-#hotsite .h-linhas__splide .sliderprod__features::-webkit-scrollbar {
+#hotsite .h-linhas__splide .sliderprod__features .scrolling::-webkit-scrollbar {
   width: 0.75rem;
   background: transparent;
 }
-#hotsite .h-linhas__splide .sliderprod__features::-webkit-scrollbar-thumb {
+#hotsite .h-linhas__splide .sliderprod__features .scrolling::-webkit-scrollbar-thumb {
   background: rgba(213, 225, 246, .3);
   border-radius: 0.75rem;
   border: 0.425rem var(--color-black) solid;
@@ -247,6 +263,23 @@
   flex-wrap: nowrap;
   white-space: nowrap;
 }
+
+#hotsite .h-linhas__splide .sliderprod__features::before,
+#hotsite .h-linhas__splide .sliderprod__features::after {
+  content: '';
+  width: 30px;
+  height: 60%;
+  position: absolute;
+  display: block;
+  background: linear-gradient(to right, rgba(20,18,26,1) 0%,rgba(20,18,26,0) 100%);
+  z-index: 1;
+}
+#hotsite .h-linhas__splide .sliderprod__features::after {
+  background: linear-gradient(to left, rgba(20,18,26,1) 0%,rgba(20,18,26,0) 100%);
+  top: 0;
+  right: 0;
+}
+
 #hotsite .h-linhas__splide .sliderprod__img {
   filter: drop-shadow(0 0 20px var(--color-black));
 }
@@ -309,18 +342,29 @@
   text-decoration: none;
   color: var(--color-black);
 }
-#hotsite .h-galeria__splide .splide-topo .splide__track--draggable{
-}
+/* #hotsite .h-galeria__splide .splide-topo .splide__track--draggable{
+} */
 #hotsite .h-galeria__splide .angulo{
   height: 100px;
   width: 100px;
-  box-shadow: -59px 0px 0px 0px rgb(255, 255, 255), 2px 2px 0px 0px rgb(255, 255, 255);
-  border: 20px solid transparent;
+  display: block;
+  border-style: solid;
+  border-color: var(--color-pink);
   position: absolute;
   background-color: transparent;
-  z-index: 9999;
+  z-index: 9999; 
 }
-#hotsite .h-galeria__splide .splide-topo .splide__arrow .splide__arrow--prev{
+#hotsite .h-galeria__splide .angulo.top{
+  border-width: 3px 0 0 3px;
+  top: 15px;
+  left: -20px;
+}
+#hotsite .h-galeria__splide .angulo.bottom{
+  border-width: 0 3px 3px 0;
+  bottom: -20px;
+  right: -25px;
+}
+#hotsite .h-galeria__splide .splide-topo .splide__arrow--prev{
   left: 0 !important;
 }
 
@@ -336,5 +380,97 @@
 }
 #hotsite .h-galeria__splide .splide-topo .splide__arrows.splide__arrows--ltr {
   display: flex !important;
-  justify-content: flex-end!important;
+  justify-content: flex-end !important;
+}
+#hotsite .h-galeria__splide .splide-thumbnails{
+  padding-top: 1.5rem;
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow{
+  background: var(--color-white-transparentize);
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev {
+  left: -3rem;
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next {
+  right: -3rem;
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev,
+#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next{
+  opacity: .9;
+  visibility: visible;
+  transition: var(var(--transition-color));
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev[aria-label="Go to last slide"],
+#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next[aria-label="Go to first slide"]{
+  opacity: 0;
+  visibility: hidden;
+  transition: var(var(--transition-color));
+}
+
+#hotsite .h-galeria__splide .splide-thumbnails .splide__slide {
+  background-size: 200%;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: .25rem;
+  border: none;
+  background-color: rgba(213, 152, 217, .3);
+  opacity: .4;
+  transition: var(--transition-color);
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__slide::before {
+  content: '';
+  width: 100%;
+  height:100%;
+  display: block;
+  background-color: rgba(161, 76, 166, .4);
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__slide.is-active {
+  opacity: 1;
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__slide.is-active::before {
+  display: none;
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__track::before,
+#hotsite .h-galeria__splide .splide-thumbnails .splide__track::after {
+  content: '';
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  display: block;
+  background: linear-gradient(to right, rgba(20,18,26,1) 0%,rgba(20,18,26,0) 100%);
+  z-index: 1;
+}
+#hotsite .h-galeria__splide .splide-thumbnails .splide__track::after {
+  background: linear-gradient(to left, rgba(20,18,26,1) 0%,rgba(20,18,26,0) 100%);
+  top: 0;
+  right: 0;
+}
+#hotsite .h-contato .h-contato__body {
+  position: relative;
+  padding: 1rem;
+  left: -15px;
+  z-index: 1;
+}
+#hotsite .h-contato .h-contato__localizacao .h-contato__body {
+  left: 0;
+}
+#hotsite .h-contato .h-contato__body mark{
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+#hotsite .h-contato .h-contato__border {
+  border: 2px solid var(--color-pink);
+  border-radius: .5rem;
+  position:absolute;
+  width: 80%;
+  height: 100%;
+}
+#hotsite .h-contato .h-contato__callout{
+  background-color: var(--color-pink-transparentize);
+  border-radius: .5rem;
+  padding: .75rem 1rem;
+}
+#hotsite .h-contato .h-contato__callout .icon-pin {
+  fill: var(--color-pink);
+  width: 26px;
 }

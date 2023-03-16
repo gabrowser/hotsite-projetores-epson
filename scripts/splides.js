@@ -33,6 +33,9 @@ window.addEventListener('load', () => {
   
   
     var thumbnails = new Splide( '#thumbnail-slider', {
+        type        : "slide",
+      perPage: 2,
+      focus: 1,
       fixedWidth  : 100,
       fixedHeight : 60,
       gap         : 10,
