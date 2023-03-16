@@ -117,28 +117,42 @@
                                 </div>
                             </nav>
                             <!-- FIM SIDEBAR FLUTUANTE -->
-
+                        </div>
+                        <div class="h-header__scrollvideo container-fluid d-none d-xxl-block" id="home">
+                            <div class="row">
+                               <div class="col-sm p-0 min-vh-100">
+                                  <div class="container-fluid" style="background: linear-gradient(0deg, rgba(43,37,54,1) 20%, rgba(29,25,36,1) 22%, rgba(33,29,38,1) 29%);">
+                                     <div class="intro">
+                                        <h1></h1>
+                                        <video src="assets/videos/final.mp4"></video>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-block d-xxl-none">
+                            <div class="row justify-content-center">
+                                <div class="col-12 position-absolute mt-4">
+                                    <div class="h-logo-epson">
+                                        <img src="assets/img/epson-logo.png" alt="" class="img-fluid d-block mx-auto h-logo-epson__img">
+                                    </div>
+                                </div>
+                                <div class="col-12 px-0">
+                                    <picture>
+                                        <source srcset="assets/img/banner-topo_mb.jpg" media="(max-width: 768px)">
+                                        <img src="assets/img/banner-topo_desk.jpg" alt="" class="img-fluid d-block mx-auto">
+                                    </picture>
+                                </div>
+                            </div>
                         </div>
                     </section>
-                    <div class="container-fluid" id="home">
-                        <div class="row">
-                           <div class="col-sm p-0 min-vh-100" >
-                              <div class="container-fluid" style="background: linear-gradient(0deg, rgba(43,37,54,1) 20%, rgba(29,25,36,1) 22%, rgba(33,29,38,1) 29%);">
-                                 <div class="intro">
-                                    <h1></h1>
-                                    <video src="assets/videos/final.mp4"></video>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
 
                     <section class="h-infografico" id="infografico">
                         <div class="container-xxl">
                             <div class="row justify-content-center">
                                 <div class="col-auto">
                                     <picture>
-                                        <source srcset="assets/img/infografico-sobre-projetores_mb.jpg" media="(max-width: 768px)">
+                                        <source srcset="assets/img/infografico-sobre-projetores_mb.jpg" media="(max-width: 992px)">
                                         <img src="assets/img/infografico-sobre-projetores_desk.png" alt="" class="img-fluid h-infografico__img">
                                     </picture>
                                 </div>
@@ -147,14 +161,31 @@
                     </section>
 
                     <section class="h-linhas" id="linhasProjetores">
-                        <div class="container-xxl">
+                        <div class="container px-lg-5 px-xxl-3">
                             <div class="row justify-content-center">
-                                <div class="col-12 mb-5 px-0">
-                                    <nav class="h-linhas__nav">
-                                        <ul class="nav justify-content-end">
+                                <div class="col-12 mb-3mb-lg-5 px-0">
+                                    <nav>
+                                        <ul class="h-linhas__nav nav justify-content-end d-none d-lg-flex">
                                             <li class="nav__item active" id="linhaCasa">Cinema em casa</li>
                                             <li class="nav__item" id="linhaEducacao">Educação</li>
                                         </ul>
+
+                                        <div class="h-linhas__dropdown d-lg-none text-end">
+                                            <div class='dropdown-menu'>
+                                                <div class='dropdown-header'>
+                                                    <span class="me-2 mt-1">Cinema em Casa</span>
+                                                    <svg class="icon-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="20" height="20" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+                                                </div>
+                                                <div class='dropdown-body'>
+                                                    <div class="dropdown-item active" id="linhaCasaMob" data-id="0" data-label="Cinema em Casa">
+                                                        Cinema em Casa
+                                                    </div>
+                                                    <div class="dropdown-item" id="linhaEducacaoMob" data-id="1" data-label="Educação">
+                                                        Educação
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </nav>
                                 </div>
                                 <div class="col-12 px-0">
@@ -165,7 +196,7 @@
                                                 <!-- INÍCIO FH-02 -->  
                                                 <li class="splide__slide">
                                                     <div class="sliderprod">
-                                                        <div class="row justify-content-center">
+                                                        <div class="row justify-content-center align-items-center">
                                                             <div class="col-4">
                                                                 <p class="sliderprod__overtitle mb-0">Projetor Multimídia</p>
                                                                 <p class="sliderprod__title">EpiqVision FH-02</p>
@@ -188,7 +219,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col" style="width: 561px; height: 350px; position: relative;">
+                                                            <div class="col" style="width: 561px; position: relative;">
                                                                 <div class="splide sliderprod__splide d-flex justify-content-center">
                                                                     <div class="splide__track">
                                                                         <ul class="splide__list">
@@ -224,7 +255,7 @@
                                                 <!-- INÍCIO EF-12 -->  
                                                 <li class="splide__slide">
                                                     <div class="sliderprod">
-                                                        <div class="row justify-content-center">
+                                                        <div class="row justify-content-center align-items-center">
                                                             <div class="col-4">
                                                                 <p class="sliderprod__overtitle mb-0">Projetor Laser</p>
                                                                 <p class="sliderprod__title">EpiqVision EF-12</p>
@@ -246,7 +277,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col" style="width: 561px; height: 350px; position: relative;">
+                                                            <div class="col" style="width: 561px; position: relative;">
                                                                 <div class="splide sliderprod__splide d-flex justify-content-center">
                                                                     <div class="splide__track">
                                                                         <ul class="splide__list">
@@ -282,7 +313,7 @@
                                                 <!-- INÍCIO LS-300 -->  
                                                 <li class="splide__slide">
                                                     <div class="sliderprod">
-                                                        <div class="row justify-content-center">
+                                                        <div class="row justify-content-center align-items-center">
                                                             <div class="col-4">
                                                                 <p class="sliderprod__overtitle mb-0">Projetor Laser</p>
                                                                 <p class="sliderprod__title">EpiqVision LS-300</p>
@@ -306,7 +337,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col" style="width: 561px; height: 350px; position: relative;">
+                                                            <div class="col" style="width: 561px; position: relative;">
                                                                 <div class="splide sliderprod__splide d-flex justify-content-center">
                                                                     <div class="splide__track">
                                                                         <ul class="splide__list">
@@ -348,7 +379,7 @@
                                                 <!-- INÍCIO CO-W01 -->  
                                                 <li class="splide__slide">
                                                     <div class="sliderprod">
-                                                        <div class="row justify-content-center">
+                                                        <div class="row justify-content-center align-items-center">
                                                             <div class="col-4">
                                                                 <p class="sliderprod__overtitle mb-0">Projetor Multimídia</p>
                                                                 <p class="sliderprod__title">Powerlite CO-W01</p>
@@ -370,7 +401,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col" style="width: 561px; height: 350px; position: relative;">
+                                                            <div class="col" style="width: 561px; position: relative;">
                                                                 <div class="splide sliderprod__splide d-flex justify-content-center">
                                                                     <div class="splide__track">
                                                                         <ul class="splide__list">
@@ -406,7 +437,7 @@
                                                 <!-- INÍCIO E20 -->  
                                                 <li class="splide__slide">
                                                     <div class="sliderprod">
-                                                        <div class="row justify-content-center">
+                                                        <div class="row justify-content-center align-items-center">
                                                             <div class="col-4">
                                                                 <p class="sliderprod__overtitle mb-0">Projetor Multimídia</p>
                                                                 <p class="sliderprod__title">PowerLite E20</p>
@@ -428,7 +459,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col" style="width: 561px; height: 350px; position: relative;">
+                                                            <div class="col" style="width: 561px; position: relative;">
                                                                 <div class="splide sliderprod__splide d-flex justify-content-center">
                                                                     <div class="splide__track">
                                                                         <ul class="splide__list">
@@ -464,7 +495,7 @@
                                                 <!-- INÍCIO FH52+ -->  
                                                 <li class="splide__slide">
                                                     <div class="sliderprod">
-                                                        <div class="row justify-content-center">
+                                                        <div class="row justify-content-center align-items-center">
                                                             <div class="col-4">
                                                                 <p class="sliderprod__overtitle mb-0">Projetor Multimídia</p>
                                                                 <p class="sliderprod__title">Powerlite FH52+</p>
@@ -486,7 +517,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col" style="width: 561px; height: 350px; position: relative;">
+                                                            <div class="col" style="width: 561px; position: relative;">
                                                                 <div class="splide sliderprod__splide d-flex justify-content-center">
                                                                     <div class="splide__track">
                                                                         <ul class="splide__list">
@@ -526,7 +557,7 @@
                         </div>
                     </section>
 
-                    <section class="h-galeria mt-5" id="galeria">
+                    <section class="h-galeria mt-5 d-none" id="galeria">
                         <div class="container">
                             <div class="row justify-content-center mx-auto">
                                 <div class="h-galeria__splide"> 
@@ -602,25 +633,25 @@
 
                     <section class="h-contato" id="contato">
                         <div class="container-xxl">
-                            <div class="row justify-content-center">
-                                <div class="h-contato__box h-contato__telefone col-4 position-relative px-0" style="height: min-content">
-                                    <div class="d-flex flex-column align-items-center">
+                            <div class="row justify-content-center gy-4">
+                                <div class="h-contato__box h-contato__telefone col-12 col-md-8 col-lg-6 col-xl-4 position-relative px-md-0" style="height: min-content">
+                                    <div class="d-flex flex-column align-items-lg-center">
                                         <div class="h-contato__body d-flex">
                                             <picture>
                                                 <img src="assets/img/contato/icon-telefone.png" alt="">
                                             </picture>
                                             <div>
                                                 <p><mark class="word-wrap">Telefones para contato:</mark></p>
-                                                <p><mark class="word-wrap">Capitais e regiões metropolitanas <strong class="text-nowrap">3004-6627</strong></mark></p>
-                                                <p class="mb-0"><mark class="word-wrap">Outras localidades <strong class="text-nowrap">0800 377 6627 / 0800 EPSONBR</strong></mark></p>
+                                                <p><mark class="word-wrap">Capitais e regiões metropolitanas <strong>3004-6627</strong></mark></p>
+                                                <p class="mb-0"><mark class="word-wrap">Outras localidades <strong>0800 377 6627 / 0800 EPSONBR</strong></mark></p>
                                             </div>
                                         </div>
-                                        <div class="h-contato__border">
+                                        <div class="h-contato__border ms-4 ms-lg-0">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="h-contato__box h-contato__email col-4 position-relative px-0" style="height: min-content">
-                                    <div class="d-flex flex-column align-items-center">
+                                <div class="h-contato__box h-contato__email col-12 col-md-8 col-lg-6 col-xl-4 position-relative px-md-0" style="height: min-content">
+                                    <div class="d-flex flex-column align-items-lg-center">
                                         <div class="h-contato__body d-flex">
                                             <picture>
                                                 <img src="assets/img/contato/icon-email.png" alt="">
@@ -630,12 +661,12 @@
                                                 <p><mark class="word-wrap">Envie um e-mail acessando a página do produto no <a href="" class="highlight">Site Oficial da Epson</a>.</mark></p>
                                             </div>
                                         </div>
-                                        <div class="h-contato__border">
+                                        <div class="h-contato__border ms-4 ms-lg-0">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="h-contato__box h-contato__localizacao col-4 position-relative px-0" style="height: min-content">
-                                    <div class="d-flex flex-column align-items-center">
+                                <div class="h-contato__box h-contato__localizacao col-12 col-md-8 col-lg-6 col-xl-4 position-relative px-md-0" style="height: min-content">
+                                    <div class="d-flex flex-column align-items-lg-center">
                                         <div class="h-contato__body d-flex">
                                             <picture>
                                                 <img src="assets/img/contato/icon-localizacao.png" alt="">
@@ -644,7 +675,7 @@
                                                 <p><mark class="word-wrap">Para encontrar um centro de serviço próximo a você e obter assistência para o seu produto Epson, basta acessar o <a href="" class="highlight">Localizador de Centros de serviço</a> e buscar por sua cidade, CEP ou região. </mark></p>
                                             </div>
                                         </div>
-                                        <div class="h-contato__border">
+                                        <div class="h-contato__border ms-4 ms-lg-0">
                                         </div>
                                     </div>
                                 </div>
@@ -666,7 +697,7 @@
                         <div class="container-xxl">
                             <div class="row justify-content-center">
                                 <div class="col-auto mb-5">
-                                    <img src="assets/img/epson-logo.png" alt="" class="img-fluid">
+                                    <img src="assets/img/epson-logo.png" alt="" class="img-fluid h-logo-epson__img">
                                 </div>
                             </div>
                         </div>
