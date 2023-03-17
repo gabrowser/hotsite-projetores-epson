@@ -12,8 +12,11 @@ window.addEventListener('load', () => {
                 drag: false,
                 pagination: false,
                 breakpoints: {
-                    576: {
-                        drag: true
+                    992: {
+                        drag: true,
+                        pagination: true,
+                        arrows: false,
+                        gap: 10
                     }
                 }
             }
