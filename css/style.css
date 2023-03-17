@@ -36,9 +36,29 @@ body {
 }
 #hotsite .h-nav {
   position: fixed;
-  transform: translate(-120px, 240px);
   z-index: 9999;
   color: var(--color-black);
+}
+@media (max-width: 1600px) {
+  #hotsite .h-nav {
+    left: 30px;
+    top: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  #hotsite .h-nav {
+    transform: translate(-120px, 240px);
+  }
+}
+@media (min-width: 1600px) {
+  #hotsite .h-nav .navbar-toggler {
+    display: none;
+  }
+  #hotsite .h-nav .collapse {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
 }
 #hotsite .h-nav__bg {
   background-color: var(--color-mauve-purple-transparentize);
@@ -55,7 +75,8 @@ body {
   width: 20px;
 }
 #hotsite .h-nav__icon--mob-menu {
-  width:100px;
+  display: block;
+  width:80px;
 }
 #hotsite .h-nav__item {
   position: relative;
