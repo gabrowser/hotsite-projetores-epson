@@ -81,6 +81,7 @@ CO-W01
 - Sobretítulo: Projetor Multimídia
    ↳ Título:  Powerlite CO-W01
       ↳ Descrição: 
+	 · 3.000 lúmens
          · Elegante e compacto
          · Imagens de até 300"
          · HDMI e Alto-falantes integrados
@@ -104,6 +105,7 @@ E20
 - Sobretítulo: Projetor Multimídia
    ↳ Título: PowerLite E20
       ↳ Descrição: 
+	 · 3.400 lúmens
          · Lâmpada econômica com até 12.000 horas no modo Eco
          · Imagens de até 300"
          · Baixo consumo de energia
@@ -128,6 +130,7 @@ Powerlite FH52+
 - Sobretítulo: Projetor Multimídia
    ↳ Título: Powerlite FH52+
       ↳ Descrição: 
+	 · 4.000 lúmens
          · conexão wireless.
          · Imagens Full HD 1080p de até 300"
          · Lâmpada econômica com até 12.000 horas no modo Eco
