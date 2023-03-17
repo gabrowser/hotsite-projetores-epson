@@ -12,8 +12,11 @@ window.addEventListener('load', () => {
                 drag: false,
                 pagination: false,
                 breakpoints: {
-                    576: {
-                        drag: true
+                    992: {
+                        drag: true,
+                        pagination: true,
+                        arrows: false,
+                        gap: 10
                     }
                 }
             }
@@ -33,6 +36,9 @@ window.addEventListener('load', () => {
   
   
     var thumbnails = new Splide( '#thumbnail-slider', {
+        type        : "slide",
+      perPage: 2,
+      focus: 1,
       fixedWidth  : 100,
       fixedHeight : 60,
       gap         : 10,
