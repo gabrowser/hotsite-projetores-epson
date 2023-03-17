@@ -16,6 +16,7 @@ body {
 
   background-color: var(--color-black);
   color: var(--color-white);
+  overflow: hidden;
 
   font-family: "area-normal", sans-serif;
 }
@@ -62,6 +63,8 @@ body {
 }
 #hotsite .h-nav__bg {
   background-color: var(--color-mauve-purple-transparentize);
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 13.5px )
 }
 #hotsite .h-nav__icon {
   fill: var(--color-white);
@@ -598,25 +601,43 @@ body {
 }
 /* #hotsite .h-galeria__splide .splide-topo .splide__track--draggable{
 } */
-#hotsite .h-galeria__splide .angulo{
-  height: 100px;
-  width: 100px;
-  display: block;
-  border-style: solid;
-  border-color: var(--color-pink);
-  position: absolute;
-  background-color: transparent;
-  z-index: 9999; 
+@media (max-width: 576px) {
+  #hotsite .h-galeria .container {
+    width: calc(100vw - 30px);
+  }
 }
-#hotsite .h-galeria__splide .angulo.top{
-  border-width: 3px 0 0 3px;
-  top: 15px;
-  left: -20px;
+@media (min-width: 768px) {
+  #hotsite .h-galeria__splide .angulo{
+    height: 100px;
+    width: 100px;
+    display: block;
+    border-style: solid;
+    border-color: var(--color-pink);
+    position: absolute;
+    background-color: transparent;
+    z-index: 9999; 
+  }
+  #hotsite .h-galeria__splide .angulo.top{
+    border-width: 3px 0 0 3px;
+    top: 15px;
+    left: -20px;
+  }
+  #hotsite .h-galeria__splide .angulo.bottom{
+    border-width: 0 3px 3px 0;
+    bottom: -20px;
+    right: -25px;
+  }
 }
-#hotsite .h-galeria__splide .angulo.bottom{
-  border-width: 0 3px 3px 0;
-  bottom: -20px;
-  right: -25px;
+@media(max-width: 768px) {
+  #hotsite .h-galeria__splide .splide-topo .splide__track{
+    overflow: visible;
+  }
+  #hotsite .h-galeria__splide .splide-topo img{
+    max-width: 200%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 #hotsite .h-galeria__splide .splide-topo .splide__arrow--prev{
   left: 0 !important;
@@ -643,10 +664,18 @@ body {
   background: var(--color-white-transparentize);
 }
 #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev {
-  left: -3rem;
+  left: -2rem;
 }
 #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next {
-  right: -3rem;
+  right: -2rem;
+}
+@media (min-width: 576px) {
+  #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev {
+    left: -3rem;
+  }
+  #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next {
+    right: -3rem;
+  }
 }
 #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev,
 #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next{
@@ -654,11 +683,13 @@ body {
   visibility: visible;
   transition: var(var(--transition-color));
 }
-#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev[aria-label="Go to last slide"],
-#hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next[aria-label="Go to first slide"]{
-  opacity: 0;
-  visibility: hidden;
-  transition: var(var(--transition-color));
+@media (min-width: 768px) {
+  #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--prev[aria-label="Go to last slide"],
+  #hotsite .h-galeria__splide .splide-thumbnails .splide__arrow--next[aria-label="Go to first slide"]{
+    opacity: 0;
+    visibility: hidden;
+    transition: var(var(--transition-color));
+  }
 }
 
 #hotsite .h-galeria__splide .splide-thumbnails .splide__slide {

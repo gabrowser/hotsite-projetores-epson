@@ -32,6 +32,11 @@ window.addEventListener('load', () => {
       rewind    : true,
       pagination: false,
       arrows    : true,
+      breakpoints: {
+        600: {
+            arrows: false
+        }
+      }
     } );
   
   
