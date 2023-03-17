@@ -35,6 +35,30 @@ body {
 #hotsite .h-header {
   background-color: var(--color-dark-purple)
 }
+#hotsite .h-header__title {
+  position: relative;
+  z-index:99; 
+}
+#hotsite .h-header__title p {
+  color: var(--color-white-transparentize);
+  letter-spacing: 5px;
+}
+#hotsite .h-header__title h1 {
+  text-shadow: 0 0 10px var(--color-white);
+  text-transform: uppercase;
+}
+@media (min-width: 1400px) {
+  #hotsite .h-header__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #hotsite .h-header__title h1 {
+    text-shadow: 0 0 10px var(--color-white);
+    letter-spacing: 30px;
+  }
+}
 #hotsite .h-nav {
   position: fixed;
   z-index: 9999;
