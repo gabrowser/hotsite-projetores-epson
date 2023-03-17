@@ -5,9 +5,10 @@ FH-02
 - Sobretítulo: Projetor Multimídia
    ↳ Título: EpiqVision FH-02
       ↳ Descrição: 
-         · Alto-falantes integrados
-         · Imagens Full HD 1080p com mais de 100"
-         · Fácil acesso a canais de Streaming 
+         · 3.000 Lumens
+         · Full HD com mais de 100"
+         · Android Tv e Chromecast integrados
+	 · Lâmpada de até 12.000 no modo Eco
 
 * caracteristicas:
    · HDMI
@@ -28,17 +29,20 @@ EF-12
 - Sobretítulo: Projetor Laser
    ↳ Título: EpiqVision EF-12
       ↳ Descrição: 
-         · Android TV integrada.
-         · Imagens Full HD 150" compatível com conteúdo 4K
+         · Alto-falante Yamaha 5W
+	 · Design Compacto
+         · Imagens de até 150" compatível com conteúdo 4K
+	 · Android TV e Chromecast integrada
          · Laser durabilidade de até 20.000 horas
 
 * caracteristicas:
    · 2 portas HDMI
+   · Conexão Wireless
    · FULL HD 
    · 1.000 lúmens
    · Alto-falante Yamaha
    
-   ↱ De: R$ 7.999,00
+   ↱ De: R$ 7.999,00 por
 - Preço: R$ 5.399,10 à vista
    ↳ Parcelamento: Ou 10x de R$ 599,90
       ↳ %: Economize 32%
@@ -51,9 +55,10 @@ LS-300
 - Sobretítulo: Projetor Laser
    ↳ Título: EpiqVision LS-300
       ↳ Descrição: 
-         · Android TV integrada.
+	 · Alto-falante Yamaha 20W
          · Projeções a apenas 38 cm da parede
-         · Imagens Full HD de até 150" compatível com conteúdo 4K
+         · Imagens de até 150" compatível com conteúdo 4K
+         · Android TV e Chromecast integrada
          · Laser durabilidade de até 20.000 horas
 
 * caracteristicas:
@@ -61,11 +66,12 @@ LS-300
    · Full HD de 150"
    · 3.600 lúmens
    · Controle por voz
-   
-   ↱ De: ===
-- Preço: R$ 16.199,10 à vista
-   ↳ Parcelamento: Ou 10x de R$ 16.199,10
-      ↳ %: Economize 10%
+   · Alto-falante Yamaha 
+
+   ↱ De: R$ 17.999,00 por
+- Preço: R$ 13.499,10 à vista
+   ↳ Parcelamento: Ou 10x de R$ 1.499,90
+      ↳ %: Economize 25%
 
 =========================
 
@@ -81,8 +87,8 @@ CO-W01
 
 * caracteristicas:
    · HDMI
+   · USB-A
    · Resolução WXGA 
-   · 3.000 lúmens
    · Alto-falantes integrados
    
    ↱ De: R$ 5.099,00
@@ -104,6 +110,7 @@ E20
 
 * caracteristicas:
    · HDMI
+   · Resolução WGA
    · Imagens com até 300"
    · 3.400 lúmens
    · Eco-amigável
