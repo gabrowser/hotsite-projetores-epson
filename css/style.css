@@ -61,7 +61,7 @@ body {
 }
 #hotsite .h-nav {
   position: fixed;
-  z-index: 9999;
+  z-index: 999;
   color: var(--color-black);
 }
 @media (max-width: 1600px) {
@@ -178,7 +178,7 @@ body {
 
 #hotsite .h-infografico__img {
   position: relative;
-  z-index: 999;
+  z-index: 998;
   margin-top: 150px;
 }
 
@@ -639,7 +639,7 @@ body {
     border-color: var(--color-pink);
     position: absolute;
     background-color: transparent;
-    z-index: 9999; 
+    z-index: 99; 
   }
   #hotsite .h-galeria__splide .angulo.top{
     border-width: 3px 0 0 3px;
