@@ -1,3 +1,4 @@
+
 const intro = document.querySelector(".intro");
     const video = intro.querySelector("video");
     const text = intro.querySelector("h1");
@@ -39,7 +40,6 @@ const intro = document.querySelector(".intro");
 
     setInterval(() => {
         delay += (scrollpos - delay) * accelamount;
-        console.log(scrollpos, delay);
 
         video.currentTime = delay;
     }, 65.3);

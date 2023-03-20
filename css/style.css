@@ -25,10 +25,6 @@ body {
     font-size: .875rem;
   }
 }
-#hotsite .opacity-20 {
-  opacity: 0.2;
-}
-
 #hotsite .highlight {
   color: var(--color-pink);
 }
@@ -517,7 +513,7 @@ body {
 }
 @media (max-width: 992px) {
   #hotsite .h-linhas__splide .sliderprod__splide {
-    height: 200px;
+    height: 250px;
     align-items: center;
   }
 }
