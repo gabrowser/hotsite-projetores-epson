@@ -43,7 +43,7 @@ body {
   color: var(--color-white-transparentize);
   letter-spacing: 5px;
 }
-#hotsite .h-header__title h1 {
+#hotsite .h-header__title .h1 {
   text-shadow: 0 0 10px var(--color-white);
   text-transform: uppercase;
 }
@@ -54,7 +54,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #hotsite .h-header__title h1 {
+  #hotsite .h-header__title .h1 {
     text-shadow: 0 0 10px var(--color-white);
     letter-spacing: 30px;
   }
