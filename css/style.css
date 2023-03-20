@@ -25,10 +25,6 @@ body {
     font-size: .875rem;
   }
 }
-#hotsite .opacity-20 {
-  opacity: 0.2;
-}
-
 #hotsite .highlight {
   color: var(--color-pink);
 }
@@ -43,7 +39,7 @@ body {
   color: var(--color-white-transparentize);
   letter-spacing: 5px;
 }
-#hotsite .h-header__title h1 {
+#hotsite .h-header__title .h1 {
   text-shadow: 0 0 10px var(--color-white);
   text-transform: uppercase;
 }
@@ -54,7 +50,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #hotsite .h-header__title h1 {
+  #hotsite .h-header__title .h1 {
     text-shadow: 0 0 10px var(--color-white);
     letter-spacing: 30px;
   }
@@ -517,7 +513,7 @@ body {
 }
 @media (max-width: 992px) {
   #hotsite .h-linhas__splide .sliderprod__splide {
-    height: 200px;
+    height: 250px;
     align-items: center;
   }
 }
