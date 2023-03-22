@@ -26,73 +26,74 @@ window.addEventListener('load', () => {
             splide.mount();
         }
     }
-    // Splide Carrossel
-    var main = new Splide( '#main-slider', {
-      type      : 'fade',
-      rewind    : true,
-      pagination: false,
-      arrows    : true,
-      breakpoints: {
-        600: {
-            arrows: false
-        }
-      }
-    } );
-  
-  
-    var thumbnails = new Splide( '#thumbnail-slider', {
-        type        : "slide",
-      perPage: 2,
-      focus: 1,
-      fixedWidth  : 100,
-      fixedHeight : 60,
-      gap         : 10,
-      rewind      : true,
-      pagination  : false,
-      cover       : true,
-      isNavigation: true,
-      breakpoints : {
-        600: {
-          fixedWidth : 60,
-          fixedHeight: 44,
-        },
-      },
-    } );
-  
-  
-    main.sync( thumbnails );
-    main.mount();
-    thumbnails.mount();
     
 ////////////
 
-    function sliderProdSlides() {
-        var sliderProdSlides = document.querySelectorAll('.sliderprod__splide');
+    // function sliderProdSlides() {
+    //     var sliderProdSlides = document.querySelectorAll('.sliderprod__splide');
         
-        for(var i=0; i<sliderProdSlides.length; i++){
-            var splideElement = sliderProdSlides[i];
-            //3.1 if no options are defined by 'data-splide' attribute: take these default options
-            var splideDefaultOptions = 
-            {
-                type: 'fade',
-                rewind: true,
-                speed: 1000,
-                autoplay: 'true',
-                interval: 1500,
-                pauseOnHover : true,
-                pauseOnFocus : false,
-                resetProgress: true,
-                pagination: false,
-                arrows: false,
-                padding: '2rem'
-            }
+    //     for(var i=0; i<sliderProdSlides.length; i++){
+    //         var splideElement = sliderProdSlides[i];
+    //         //3.1 if no options are defined by 'data-splide' attribute: take these default options
+    //         var splideDefaultOptions = 
+    //         {
+    //             type: 'fade',
+    //             rewind: true,
+    //             speed: 1000,
+    //             autoplay: 'true',
+    //             interval: 1500,
+    //             pauseOnHover : true,
+    //             pauseOnFocus : false,
+    //             resetProgress: true,
+    //             pagination: false,
+    //             arrows: false,
+    //             padding: '2rem'
+    //         }
             
-            var sliderImgProjetor = new Splide( splideElement, splideDefaultOptions ); 
+    //         var sliderImgProjetor = new Splide( splideElement, splideDefaultOptions ); 
         
-            sliderImgProjetor.mount();
-        }  
-    }
+    //         sliderImgProjetor.mount();
+    //     }  
+    // }
 
     sliderLinhasProjetores()
-    sliderProdSlides()
+    // sliderProdSlides()
+
+        // Splide Carrossel
+        var main = new Splide( '#main-slider', {
+            type      : 'fade',
+            rewind    : true,
+            pagination: false,
+            arrows    : true,
+            breakpoints: {
+              600: {
+                  arrows: false
+              }
+            }
+          } );
+        
+        
+          var thumbnails = new Splide( '#thumbnail-slider', {
+              type        : "slide",
+            perPage: 2,
+            focus: 1,
+            fixedWidth  : 100,
+            fixedHeight : 60,
+            gap         : 10,
+            rewind      : true,
+            pagination  : false,
+            cover       : true,
+            isNavigation: true,
+            breakpoints : {
+              600: {
+                fixedWidth : 60,
+                fixedHeight: 44,
+              },
+            },
+          } );
+        
+        
+          main.sync( thumbnails );
+          main.mount();
+          thumbnails.mount();
 });
